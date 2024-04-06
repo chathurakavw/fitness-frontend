@@ -1,0 +1,30 @@
+.btn-primary{
+  color: $primary-color;
+  background: transparent;
+  border: none;
+  padding: .75rem 1.75rem;
+  border-radius: 3rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.btn-secondary{
+  color: $primary-color;
+  background: $secondary-color;
+  border: none;
+  padding: .75rem 1.75rem;
+  border-radius: 3rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.main-button{
+  background: $primary-color;
+  color: white;
+  border: none;
+  border-radius: 3rem;
+  font-weight: 700;
+  cursor: pointer;
+  height: 3rem;
+  font-size: 20px;
+}

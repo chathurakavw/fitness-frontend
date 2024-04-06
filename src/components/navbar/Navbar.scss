@@ -1,0 +1,40 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  margin: 0 auto;
+  height: 4rem;
+
+  /* From https://css.glass */
+  background: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+
+  .navbar-left{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+
+    img{
+      width: 3rem;
+      cursor: pointer;
+    }
+
+    .logo-name{
+      display: flex;
+      flex-direction: column;
+      cursor: pointer;
+
+      p{
+        font-size: 18px;
+        font-weight: 700;
+      }
+    }
+  }
+
+  .navbar-right{
+
+  }
+}
